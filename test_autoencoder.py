@@ -3,6 +3,11 @@
 
 # Nur nen test zu autoencodern
 
+# In[204]:
+
+
+
+
 # In[110]:
 
 
@@ -14,23 +19,23 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 
-# In[182]:
+# In[196]:
 
 
 # load images + class
 images = pd.read_pickle('images_flatten.pkl').to_numpy()
 image_size = images[0][1].size
-image_shape = (335,217,3)
+image_shape = (217,335,3)
 x_train,x_test = train_test_split(images[:, 1:],test_size=0.2) 
 x_train = np.vstack(x_train[:, 0]).astype('float32') / 255.
 x_test = np.vstack(x_test[:, 0]).astype('float32') / 255.
 
 
-# In[ ]:
+# In[198]:
 
 
 # very very simple 1 layer autoencoder
-encoded_dimension = 500
+encoded_dimension = 1000
 
 input_img = keras.Input(shape=(image_size,))
 encoded = layers.Dense(encoded_dimension,activation='relu')(input_img)
@@ -66,17 +71,18 @@ decoded_imgs = decoder.predict(encoded_imgs)
 print(decoded_imgs.size)
 
 
-# In[184]:
+# In[201]:
 
 
-print(decoded_imgs)
+#print(decoded_imgs)
+autoencoder.save('test_autoencoder.keras')
 
 
-# In[194]:
+# In[206]:
 
 
 # display some of the images vs reconstruction
-n = 10  # How many digits we will display
+n = 20  # How many digits we will display
 plt.figure(figsize=(20, 4))
 for i in range(n):
     # Display original
@@ -92,7 +98,7 @@ for i in range(n):
     #plt.color()
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)
-plt.savefig("test_autoencoder_reconstruction.png")
+plt.savefig("test_autoencoder_reconstruction.png",dpi=300)
 
 
 # In[ ]:
