@@ -32,3 +32,9 @@ build/
 
 # .pkl files
 *.pkl
+
+# macos files
+.DS_Store
+
+# keras models
+*.keras
