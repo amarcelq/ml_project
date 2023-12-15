@@ -35,6 +35,3 @@ build/
 
 # macos files
 .DS_Store
-
-# keras models
-*.keras
