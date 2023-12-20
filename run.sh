@@ -14,7 +14,7 @@ fi
 FILE_NAME=$1
 if [ -z "$2" ]
 then
-  OUTPUT_NAME=$(echo $1 | sed 's/ipynb/py/')
+  OUTPUT_NAME=$(echo $1 | sed 's/.ipynb//')
 else
   OUTPUT_NAME=$2
 fi
