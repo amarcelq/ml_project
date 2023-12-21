@@ -1,0 +1,11 @@
+opencv-python
+numpy
+pandas
+tensorflow
+tensorflow-metal
+matplotlib
+seaborn
+scikit-learn
+itertools_len
+jupyterlab
+tensorflow_addons

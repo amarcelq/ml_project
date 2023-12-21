@@ -38,3 +38,5 @@ build/
 
 # keras files
 *.keras
+
+# venv
