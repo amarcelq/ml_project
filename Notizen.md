@@ -1,7 +1,2 @@
-# Themen mit Vogl besprechen:
-- zum predicten geblured Bilder benutzen oder nur zum trainieren?
-- Macht PCA Sinn?
-# Verbesserungen nach dem Grundmodel:
+- Klassen sehr unterschiedlich verteilt 
 - Cross-Validation, wenn wir gutes Modell haben
-- CLR
-- Batch Normalisierung
