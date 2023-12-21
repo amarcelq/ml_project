@@ -1,2 +1,3 @@
 - Klassen sehr unterschiedlich verteilt 
-- Cross-Validation, wenn wir gutes Modell haben
+- Pruning
+- Mehr Klassifikationlayer
