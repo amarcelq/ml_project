@@ -35,3 +35,6 @@ build/
 
 # macos files
 .DS_Store
+
+# .keras
+*.keras
