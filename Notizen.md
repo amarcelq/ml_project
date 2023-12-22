@@ -1,3 +1,0 @@
-- Klassen sehr unterschiedlich verteilt 
-- Pruning
-- Mehr Klassifikationlayer
