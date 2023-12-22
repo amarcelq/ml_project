@@ -9,3 +9,4 @@ scikit-learn
 itertools_len
 jupyterlab
 tensorflow_addons
+imblearn
