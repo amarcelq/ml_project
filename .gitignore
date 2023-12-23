@@ -39,4 +39,5 @@ build/
 # keras files
 *.keras
 
-# venv
+# numpy arrays
+*.npy
