@@ -41,3 +41,6 @@ build/
 
 # numpy arrays
 *.npy
+
+# png files
+*.png
