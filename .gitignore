@@ -38,6 +38,7 @@ build/
 
 # keras files
 *.keras
+*.h5
 
 # numpy arrays
 *.npy
