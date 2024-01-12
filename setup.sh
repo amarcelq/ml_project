@@ -1,7 +1,7 @@
-python3.11 -m venv venv
+python3.9 -m venv venv_3_9
 #echo "Now activate venv with:"
-source ./venv/bin/activate
+source ./venv_3_9/bin/activate
 #echo "Then install requirements with:"
-pip3.11 install -r requirements
+pip3.9 install -r requirements
 echo "Start Jupyter Lab with:"
-python3.11 -m jupyterlab .
+python3.9 -m jupyterlab .
