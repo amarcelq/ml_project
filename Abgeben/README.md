@@ -10,7 +10,8 @@ Um die Inhalte der Notebooks ausführen zu können, müssen in jedem Fall mindes
     -> Alle Spektogramme
  - Dieser Ordner/
     -> Alle Notebooks
-    -> data/...
+    -> data/
+   (-> compressed_pictures/)
  - Auswertung_20220524.csv
  - LMU_20180326_class.csv
  - LMU_20180505_classified.csv
