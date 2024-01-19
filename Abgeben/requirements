@@ -1,0 +1,15 @@
+opencv-python
+numpy
+pandas
+tensorflow
+tensorflow-metal
+matplotlib
+seaborn
+scikit-learn
+itertools_len
+jupyterlab
+tensorflow_addons
+imblearn
+tensorflow_model_optimization
+tqdm
+ipywidgets
