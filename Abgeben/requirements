@@ -2,7 +2,6 @@ opencv-python
 numpy
 pandas
 tensorflow
-tensorflow-metal
 matplotlib
 seaborn
 scikit-learn
